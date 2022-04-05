@@ -23,12 +23,7 @@ VOID MessageLoop();
 LRESULT CALLBACK WindowProcess(HWND hWind, UINT message, WPARAM wparam, LPARAM lparam);
 
 /* --------------------------------------------------- */
-
-
-/* --------------------------------------------------- */
-/* Operations	                                       */
-/* --------------------------------------------------- */
-
+/*
 int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 {
 	InitializeGlobalVariables();
@@ -41,7 +36,7 @@ int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
 
 	return 0;
 }
-
+*/
 LRESULT CALLBACK WindowProcess(HWND hWind, UINT message, WPARAM wparam, LPARAM lparam)
 {
 	switch (message)
@@ -56,7 +51,7 @@ LRESULT CALLBACK WindowProcess(HWND hWind, UINT message, WPARAM wparam, LPARAM l
 /* --------------------------------------------------- */
 
 /* --------------------------------------------------- */
-/* Functions	                                       */
+/* Operations	                                       */
 /* --------------------------------------------------- */
 
 VOID InitializeGlobalVariables()
@@ -94,6 +89,12 @@ VOID CreateWindowClass()
 
 	RegisterClassEx(&wcex);
 }
+
+/* --------------------------------------------------- */
+
+/* --------------------------------------------------- */
+/* Functions	                                       */
+/* --------------------------------------------------- */
 
 VOID InitializeWindow()
 {
