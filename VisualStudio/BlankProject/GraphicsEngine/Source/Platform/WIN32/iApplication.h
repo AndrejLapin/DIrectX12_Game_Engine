@@ -11,6 +11,9 @@ public:
 	virtual ~IApplication() {};
 
 public:
+
+	virtual void SetupPerGameSettings() = 0;
+
 	virtual void Initialize() = 0;
 	// Game loop - Called on a loop while the Application is running
 	virtual void Update() = 0;

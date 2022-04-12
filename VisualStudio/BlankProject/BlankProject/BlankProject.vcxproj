@@ -63,7 +63,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\BigRepos\Other\DX12_Game_Engine\VisualStudio\BlankProject\BlankProject\Source;C:\BigRepos\Other\DX12_Game_Engine\VisualStudio\BlankProject\GraphicsEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\BlankProject\Source;$(SolutionDir)\GraphicsEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -80,7 +80,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\BigRepos\Other\DX12_Game_Engine\VisualStudio\BlankProject\BlankProject\Source;C:\BigRepos\Other\DX12_Game_Engine\VisualStudio\BlankProject\GraphicsEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\BlankProject\Source;$(SolutionDir)\GraphicsEngine\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

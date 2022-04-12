@@ -11,6 +11,8 @@ public:
 	~Application();
 
 public:
+	void SetupPerGameSettings();
+
 	void Initialize();
 	// Game loop - Called on a loop while the Application is running
 	void Update();
